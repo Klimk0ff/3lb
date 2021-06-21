@@ -1,0 +1,109 @@
+html, body {
+width: 880px;
+  margin: auto;
+  text-align: center;
+}
+
+.box {
+ 			width: 150px;
+ 			height: 150px;
+ 			border: 1px solid black;
+ 			display: inline-block;
+ 			margin: -1px;
+ 			font-size: 80px;
+ 			text-align: center;
+
+ 		}
+ 		.black {
+ 			background-color: black;
+ 			
+ 		}
+
+.chess-top{
+  position: absolute;
+  top: -16px;
+  width: 800px;
+  height: 20px;
+
+}
+.chess-top p{
+	 float: left;
+	 width: 100px; 
+	 height: 20px; 
+	 text-align: center;
+	 margin:0px;
+}
+.chess-bottom{
+	bottom: -16px;
+	position: absolute;
+	width: 800px;
+	height: 10px;
+}
+.chess-bottom p{
+	 transform: rotate(180deg);
+	 float: left;
+	 width: 100px; 
+	 height: 10px; 
+	 text-align: center;
+	 margin: 0px;
+}
+.chess-left{
+	position: absolute;
+    left: -18px;
+	width: 20px;
+	float: left;
+}
+.chess-left p{
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	width: 20px; 
+	height: 60px;
+}
+.chess-right{
+	position: absolute;
+	top: -45px;
+	right: -17px;
+	width: 20px;
+	float: right;
+}
+.chess-right p{
+	transform: rotate(180deg);
+	margin: 40px 0px 0px 0px;
+	text-align: center;
+	width: 20px; 
+	height: 60px;
+}
+
+.frame {
+	border: 20px solid #000000 ;
+	border-radius: 40px;
+}
+
+.chess{
+	display: inline-block;
+  	position: relative;
+  	border: 20px solid #b2b2b2;
+ 	border-radius: 20px;
+  	text-align: center;
+	padding: 0px;
+	width: 800px;
+	height: 800px;
+}
+.str div{
+    float: left; 
+    width: 100px; 
+    height: 100px; 
+}
+
+.chess .str:nth-child(odd) div:nth-child(odd)  {
+	background: #ffffff ;
+	}
+.chess .str:nth-child(even) div:nth-child(even) {
+	background: #ffffff ;
+}
+.chess .str:nth-child(odd) div:nth-child(even)  {
+	background: #696969 ;
+	}
+.chess .str:nth-child(even) div:nth-child(odd) {
+	background: #696969 ;
+}
